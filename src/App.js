@@ -1,12 +1,13 @@
 import "./App.css";
+import Header from "./Component/Header/Header";
+import Home from "./Component/Home/Home";
 
 function App() {
   return (
     //BEM
     <div className="app">
-      <h1>Hello World</h1>
-      {/* Header */}
-      {/* Home */}
+      <Header />
+      <Home />
     </div>
   );
 }
